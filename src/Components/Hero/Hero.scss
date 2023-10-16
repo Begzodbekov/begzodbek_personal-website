@@ -1,0 +1,16 @@
+.Hero{
+
+    height: 100px;   
+    position: relative;
+    padding-bottom: 786px;
+    .hero_background{
+        display: block;
+        margin-top: -150px;
+        margin-left: -50px;
+        width: 1918px;
+        height: 936px;
+        z-index: 1;
+        position: absolute;
+        // margin: 0 auto;
+    }
+}
