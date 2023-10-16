@@ -50,16 +50,25 @@
                 font-size: 20px;
                 color: #fff;
                 margin-top: 60px;
-                .bi_right::before{
-                    flex-shrink: 0;
-                    background: #249C0A;
-                    border: 1px solid #00FF29;
-                    padding: 15px 15px;
-                    border-radius: 50%;
-                    position: absolute;
-                    font-size: 30px;
+
+                .bi_right{
+                    background: #249C0A; 
+                    padding: 14px 15px;
                     margin-top: -20px;
                     margin-left: 29px;
+                    background: #249C0A;
+                    border: 1px solid #00FF29;
+                    border-radius: 50%;
+                    flex-shrink: 0;
+                    position: absolute;
+                    font-size: 30px;
+                }
+            }
+            .hero_left_button:hover{
+                transition: 200ms all ease-in;
+                background-color:#249C0A ;
+                .bi_right{
+                    border: none;
                 }
             }
         }
