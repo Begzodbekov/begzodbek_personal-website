@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+.about_inner{
+          .about-title{
+                    text-align: center;
+                    color: #FFF;
+                    font-family: Allerta;
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 1.05px;  
+                    span{
+                              color: #00FF0A;
+                    }
+          }
+          .about_hero{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .about_left{
+                              .about_left_me{
+                                        height: 800px;
+                                        margin-left: -30px;
+                                        margin-top: -100px;
+                              }
+                    }
+                    .about_right{
+                              .about_right_description{
+                                        color: #FFF;
+                                        font-size: 25px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                        max-width: 1000px;
+                                        margin-top: -150px;
+                                        span{
+                                                  color: #00FF0A;
+                                        }
+                              }
+                              .about_right_items{
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        margin-top: 70px;
+                                        max-width: 800px;
+                                        .about_right_block1{
+                                                  padding: 14px 78px 52px 30px;
+                                                  border-radius: 10px;
+                                                  border: 1px solid #969B95;
+                                                  background: rgba(166, 239, 239, 0.29);
+                                                  backdrop-filter: blur(4.5px);
+                                                  h1{
+                                                            color: #00FF0A;
+                                                            font-size: 60px;
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            line-height: normal;
+                                                  }
+                                                  span{
+                                                            display: block;
+                                                            width: 50px;
+                                                            height: 2px;
+                                                            background: #BABABA;
+                                                            margin-left: -2px;
+                                                  }
+                                                  p{
+                                                            margin-left: 60px;
+                                                            color: #FFF;
+                                                            font-size: 25px;
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            line-height: normal;
+                                                            letter-spacing: 1px;
+                                                            margin-top: -15px;
+                                                  }
+                                        }
+                                        .about_right_block2{
+                                                  padding: 14px 78px 52px 30px;
+                                                  border-radius: 10px;
+                                                  border: 1px solid #969B95;
+                                                  background: rgba(166, 239, 239, 0.29);
+                                                  backdrop-filter: blur(4.5px);
+                                                  h1{
+                                                            color: #00FF0A;
+                                                            font-size: 60px;
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            line-height: normal;
+                                                  }
+                                                  span{
+                                                            display: block;
+                                                            width: 50px;
+                                                            height: 2px;
+                                                            background: #BABABA;
+                                                            margin-left: -2px;
+                                                  }
+                                                  p{
+                                                            margin-left: 60px;
+                                                            color: #FFF;
+                                                            font-size: 25px;
+                                                            font-style: normal;
+                                                            font-weight: 400;
+                                                            line-height: normal;
+                                                            letter-spacing: 1px;
+                                                            margin-top: -15px;
+                                                  }
+                                        }
+                              }
+                    }
+          }
+}

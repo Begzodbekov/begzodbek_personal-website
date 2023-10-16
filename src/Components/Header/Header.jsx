@@ -12,7 +12,7 @@ function Header() {
             <div className="nav_inner">
               <ul className='nav_list'>
                 <li className='nav_list_item item1'>
-                  <Link className='nav_item_logo'><img src={Logo} alt="" /></Link>
+                  <Link to='/' className='nav_item_logo' ><img src={Logo} alt="" /></Link>
                 </li>
                 <li className='nav_list_item item2'>
                   <Link className='nav_item_a1'><img src={Title} alt="" /></Link>
@@ -22,6 +22,9 @@ function Header() {
                 </li>
                 <li className='nav_list_item item4'>
                   <Link to="/about" className={location== '/about'?'nav_item_a3 active':"nav_item_a3"}>About</Link>
+                </li>
+                <li className='nav_list_item itemskils'>
+                  <Link to="/skills" className={location== '/skills'?'nav_item_askills active':"nav_item_askills"}>Skills</Link>
                 </li>
                 <li className='nav_list_item item5'>
                   <Link to="/portfolio" className={location== '/portfolio'?'nav_item_a4 active':"nav_item_a4"}>Portfolio</Link>

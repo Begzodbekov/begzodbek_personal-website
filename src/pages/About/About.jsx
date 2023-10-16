@@ -1,9 +1,11 @@
 import React from 'react'
+import AboutContent from '../../Components/AboutContent/AboutContent'
+import Skills from '../../Components/Skills/Skills'
 
 function About() {
   return (
     <div className='About'>
-        <h1>About</h1>
+        <AboutContent/>
     </div>
   )
 }

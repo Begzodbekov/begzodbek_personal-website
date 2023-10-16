@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.App{
+  background: #2A3038;
+  height: 100vh;
+  background-image: url('./Assets/Images/Meliuk-liuk2.png');
+  background-size: cover;
+  background-position: center;
+}
 .container{
   max-width: 1840px;
   margin: 0 auto;

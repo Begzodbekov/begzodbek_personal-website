@@ -1,19 +1,6 @@
 .Hero{
-    // background: #2A3038;
 
-    height: 100px;   
     position: relative;
-    padding-bottom: 785px;
-    // .hero_background{
-    //     display: block;
-    //     margin-top: -150px;
-    //     margin-left: -50px;
-    //     width: 1918px;
-    //     height: 936px;
-    //     z-index:-1;
-    //     position: absolute;
-    //     // margin: 0 auto;
-    // }
     .hero_inner{
         .hero_left{
             padding-top: 200px;
@@ -50,7 +37,9 @@
                 font-size: 20px;
                 color: #fff;
                 margin-top: 60px;
-
+                a{
+                    color: #fff;
+                }
                 .bi_right{
                     background: #249C0A; 
                     padding: 14px 15px;

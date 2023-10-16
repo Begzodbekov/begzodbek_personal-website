@@ -1,9 +1,10 @@
 import React from 'react'
+import PortfolioContent from '../../Components/PortfolioContent/PortfolioContent'
 
 function Portfolio() {
   return (
     <div className='Portfolio'>
-        <h1>Portfolio</h1>
+        <PortfolioContent/>
     </div>
   )
 }

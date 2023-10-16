@@ -1,0 +1,71 @@
+.skills_inner{
+          h1{
+                    text-align: center;
+                    color: #FFF;
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 1.05px;
+                    span{
+                              color: #00FF0A;
+                              font-size: 60px;
+                              font-style: normal;
+                              font-weight: 400;
+                              line-height: normal;
+                              letter-spacing: 1.05px;
+                    }
+          }
+          .skills_using{
+                    margin-top: 56px;
+                    margin-left: 207px;
+                    color: #fff;
+                    span{
+                              color: #00FF0A;
+                    }
+          }
+          .skills_items{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    max-width: 1309px;
+                    gap: 50px;
+                    margin-left: 324px;
+                    margin-top: 50px;
+                    .skills_block{
+                              text-align: center;
+                              padding: 22px 75px 13px 70px;
+                              h2{
+                                        margin-top: 10px;
+                                        color: #fff;
+                                        text-align: center;
+                                        font-family: Montserrat;
+                                        font-size: 24px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                        letter-spacing: 3.249px;
+                              }
+                    }
+                    .skills_block:hover{
+                              border-radius: 10px;
+                              border: 1px solid #969B95;
+                              background: rgba(166, 239, 239, 0.29);
+                              backdrop-filter: blur(4.5px);
+                    }
+                    .block6{
+                              margin-left: -131px;
+                    }
+                    .block6:hover{
+                              padding: 22px 75px 13px 70px;
+                              border-radius: 10px;
+                              border: 1px solid #969B95;
+                              background: rgba(166, 239, 239, 0.29);
+                              backdrop-filter: blur(4.5px);
+                    }
+                    .block7{
+                              margin-left: -129px;
+                    }
+          }
+}

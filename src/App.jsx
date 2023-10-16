@@ -5,7 +5,7 @@ import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Contact from './pages/Contact/Contact';
 import Header from './Components/Header/Header';
-
+import Skill from './pages/Skill/Skill';
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/skills' element={<Skill/>}/>
       </Routes>
     </div>
   );
