@@ -7,18 +7,20 @@ function Hero() {
   return (
     <div className='Hero'>
       <div className="container">
-      <img className='hero_background' src={Background2} alt="" />
+      {/* <img className='hero_background' src={Background2} alt="" /> */}
+      <div className="hero_inner">
         <div className="hero_left">
-          <h1>-I‘m Umar
-            <span>Frontend Developer</span>
-          </h1>
-          <p>I’m  currently frontend developer in Uzbekistan. I am passionate about working with client and creating wonderful website that
-          improve the live of those around me</p>
-          <button>
-          More about me 
-          <i class="bi bi-arrow-right"></i>
-          </button>
-        </div>
+            <h1 className='hero_left_name'>-I‘m Umar <br />
+              <span>Frontend Developer</span>
+            </h1>
+            <p className='hero_left_definintion'>I’m  currently frontend developer in Uzbekistan. I am passionate about working with client and creating wonderful website that
+            improve the live of those around me</p>
+            <button className='hero_left_button'>
+            More about me 
+            <i class="bi bi-arrow-right bi_right"></i>
+            </button>
+          </div>
+      </div>
       </div>
     </div>
   )

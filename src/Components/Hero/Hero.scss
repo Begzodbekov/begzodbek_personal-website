@@ -1,16 +1,67 @@
 .Hero{
+    // background: #2A3038;
 
     height: 100px;   
     position: relative;
-    padding-bottom: 786px;
-    .hero_background{
-        display: block;
-        margin-top: -150px;
-        margin-left: -50px;
-        width: 1918px;
-        height: 936px;
-        z-index: 1;
-        position: absolute;
-        // margin: 0 auto;
+    padding-bottom: 785px;
+    // .hero_background{
+    //     display: block;
+    //     margin-top: -150px;
+    //     margin-left: -50px;
+    //     width: 1918px;
+    //     height: 936px;
+    //     z-index:-1;
+    //     position: absolute;
+    //     // margin: 0 auto;
+    // }
+    .hero_inner{
+        .hero_left{
+            padding-top: 200px;
+            margin-left: 50px;
+            .hero_left_name{
+                color: #FFF;
+                font-family: Allerta;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1.05px;
+                
+                span{
+                    margin-left:25px;
+                }
+            }
+            .hero_left_definintion{
+                color: #D7D7D7;
+                font-family: Allerta;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.36px;
+                max-width: 650px;
+                margin-top: 30px;
+            }
+            .hero_left_button{
+                border-radius: 50px;
+                border: 1px solid #249C0A;
+                padding: 20px 90px 20px 51px;
+                background-color: transparent;
+                font-size: 20px;
+                color: #fff;
+                margin-top: 60px;
+                .bi_right::before{
+                    flex-shrink: 0;
+                    background: #249C0A;
+                    border: 1px solid #00FF29;
+                    padding: 15px 15px;
+                    border-radius: 50%;
+                    position: absolute;
+                    font-size: 30px;
+                    margin-top: -20px;
+                    margin-left: 29px;
+                }
+            }
+        }
     }
 }
