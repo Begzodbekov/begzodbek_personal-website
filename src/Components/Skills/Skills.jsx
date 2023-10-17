@@ -24,7 +24,7 @@ function Skills() {
               <img src={Css} alt="" />
               <h2>CSS3</h2>
             </div>
-            <div className="skills_block">
+            <div className="skills_block block3">
               <img src={Sass} alt="" />
               <h2>SASS</h2>
             </div>
@@ -44,7 +44,7 @@ function Skills() {
               <img src={Git} alt="" />
               <h2>GIT</h2>
             </div>
-            <div className="skills_block">
+            <div className="skills_block block8">
               <img src={Figma} alt="" />
               <h2>FIGMA</h2>
             </div>

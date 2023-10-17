@@ -107,6 +107,37 @@
                                                   }
                                         }
                               }
+                              .about_right_CV{
+                                margin-top: 30px;
+                                margin-left: 280px;
+                                padding: 15px 70px 15px 30px;
+                                border-radius: 35px;
+                                border: 1px solid #00FF0A;
+                                background-color: transparent;
+                                font-size: 18px;
+                                color: #fff;
+                                position: relative;
+                                background: -webkit-linear-gradient(0deg, transparent 50%, #249C0A 50%);
+                                background-size: 589px  417px;
+                                cursor: pointer;
+                                .cv_bi{
+                                    background: #249C0A; 
+                                    padding: 10px 10px 10px 10px;
+                                    margin-top: -15px;
+                                    margin-left: 23px;
+                                    background: #249C0A;
+                                    border-right: 1px solid #00FF0A;
+                                    border-radius: 50%;
+                                    flex-shrink: 0;
+                                    position: absolute;
+                                    font-size: 26px;
+                                    
+                                }
+                              }
+                              .about_right_CV:hover{
+                                transition: 700ms all ease-in-out;
+                                background-position: -300px 0;
+                            }
                     }
           }
 }

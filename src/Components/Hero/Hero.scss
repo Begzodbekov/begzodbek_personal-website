@@ -1,10 +1,25 @@
 .Hero{
-
+    .hero_social{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: -100px;
+        .bi{
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
     position: relative;
     .hero_inner{
         .hero_left{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             padding-top: 200px;
-            margin-left: 50px;
+            margin-left: -60px;
+            max-width: 900px;
             .hero_left_name{
                 color: #FFF;
                 font-family: Allerta;
@@ -33,32 +48,30 @@
                 border-radius: 50px;
                 border: 1px solid #249C0A;
                 padding: 20px 90px 20px 51px;
-                background-color: transparent;
                 font-size: 20px;
                 color: #fff;
                 margin-top: 60px;
-                a{
-                    color: #fff;
-                }
+                position: relative;
+                background: -webkit-linear-gradient(0deg, transparent 50%, #249C0A 50%);
+                background-size: 589px  417px;
+                cursor: pointer;
                 .bi_right{
                     background: #249C0A; 
-                    padding: 14px 15px;
+                    padding: 15px 15px;
                     margin-top: -20px;
-                    margin-left: 29px;
+                    margin-left: 31px;
                     background: #249C0A;
-                    border: 1px solid #00FF29;
+                    border-right: 1px solid #249C0A;
                     border-radius: 50%;
                     flex-shrink: 0;
                     position: absolute;
                     font-size: 30px;
                 }
             }
+
             .hero_left_button:hover{
-                transition: 200ms all ease-in;
-                background-color:#249C0A ;
-                .bi_right{
-                    border: none;
-                }
+                transition: 500ms all ease-in-out;
+                background-position: -300px 0;
             }
         }
     }

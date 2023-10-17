@@ -27,6 +27,9 @@ function AboutContent() {
                                     <p>Completed <br />Projects</p>
                                   </div>
                                 </div>
+                                <button  className='about_right_CV'>Download my CV
+                                <i class="bi bi-download cv_bi"></i>
+                                </button>
                              </div>
                           </div>
                 </div>

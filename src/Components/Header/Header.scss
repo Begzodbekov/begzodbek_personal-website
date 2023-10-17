@@ -20,6 +20,14 @@
                 font-weight: 400;
                 line-height: normal;
             }
+            // .nav_item_a2::after{
+            //     content: "";
+            //     display: block;
+            //     height: 2px;
+            //     width: 70%;
+            //     // margin-top: 5px;
+            //     background-color: #00FF29;
+            // }
             .active::after{
                 content: '';
                 display: block;
