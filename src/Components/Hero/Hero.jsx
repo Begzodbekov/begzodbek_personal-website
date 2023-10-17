@@ -9,11 +9,21 @@ function Hero() {
       <div className="hero_inner">
         <div className="hero_left">
            <div className='hero_social'>
-             <i class="bi bi-facebook"></i>
-             <i class="bi bi-twitter"></i>
-             <i class="bi bi-instagram"></i>
-             <i class="bi bi-github"></i>
-             <i class="bi bi-telegram"></i>
+             <a href="">
+              <i class="bi bi-facebook"></i>
+             </a>
+             <a href="">
+              <i class="bi bi-twitter"></i>
+             </a>
+             <a href="">
+              <i class="bi bi-instagram"></i>
+             </a>
+             <a href="https://github.com/Begzodbekov">
+              <i class="bi bi-github"></i>
+             </a>
+             <a href='https://t.me/Umar_0212'>
+              <i class="bi bi-telegram"></i>
+             </a>
            </div>
             <div>
             <h1 className='hero_left_name'>-I‘m Umar <br />

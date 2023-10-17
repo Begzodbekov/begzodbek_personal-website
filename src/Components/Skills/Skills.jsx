@@ -28,7 +28,7 @@ function Skills() {
               <img src={Sass} alt="" />
               <h2>SASS</h2>
             </div>
-            <div className="skills_block">
+            <div className="skills_block block4">
               <img src={Js} alt="" />
               <h2>JAVASCRIPT</h2>
             </div>

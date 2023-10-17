@@ -1,0 +1,180 @@
+.contact_inner{
+    .contact_title{
+        text-align: center;
+        font-size: 60px;
+        color: #fff;
+        letter-spacing: 1.05px; 
+        color: #FFF;
+        font-family: Allerta;
+        font-style: normal;
+        font-weight: 400;
+        span{
+            color: #00FF0A;
+            letter-spacing: 1.05px;
+        }
+    }
+    .contact_hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        .contact_left{
+            .contact_left_title{
+                color: #FFF;
+                font-family: Allerta;
+                font-size: 23px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1px;    
+                margin-top: -93px;
+                margin-left: 100px;
+            }
+            .contact_left_definiton{
+                color: #FFF;
+                font-family: Allerta;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 1px;
+                max-width: 600px;
+                margin-top: 44px;
+                margin-left: 100px;
+            }
+            .contact_mail{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 30px;
+                max-width: 300px;
+                margin-left: 90px;
+                .bi{
+                    font-size: 40px;
+                    color: #00FF0A;
+                    cursor: pointer;
+                }
+                div{
+                    h4{
+                        color: #fff;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 2.301px;
+                    }
+                    p{
+                        color: #FFF;
+                        font-family: Inter;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 5px;
+                    }
+                }
+
+            }
+            .contact_phone{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 16px;
+                margin-left: 90px;
+                max-width: 200px;
+                .bi{
+                    font-size: 40px;
+                    color: #00FF0A;
+                    cursor: pointer;
+                }
+                div{
+                    h4{
+                        color: #fff;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 2.301px;
+                    }
+                    p{
+                        color: #FFF;
+                        font-family: Inter;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .contact_right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -40px;
+        flex-wrap: wrap;
+        max-width: 1060px;
+        line-height: 30px;
+        input{
+            border-radius: 10px;
+            padding: 21px 98px 21px 25px;
+            border-radius: 10px;
+            border: 1px solid #969B95;
+            background: rgba(166, 239, 239, 0.29);
+            backdrop-filter: blur(4.5px);
+            color: #fff;
+            margin-right: 20px;
+            // font-size: 15px;
+        }
+        ::placeholder{
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        .contact_textarea{
+            padding: 21px 655px 64px  25px;
+            margin-top: 30px;
+            border-radius: 10px;
+            border: 1px solid #969B95;
+            background: rgba(166, 239, 239, 0.29);
+            backdrop-filter: blur(4.5px);
+            color: #fff;
+        }
+        .contact_send{
+            padding: 15px 70px 15px 30px;
+            border-radius: 50px;
+            border: 1px solid #249C0A;
+            background-color: transparent;
+            color: #fff;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: relative;
+            background: -webkit-linear-gradient(0deg, transparent 50%, #249C0A 50%);
+            background-size: 589px  417px;
+            cursor: pointer;
+            margin-top: 10px;
+            .bi{
+                background: #249C0A; 
+                padding: 10px 10px 10px 10px;
+                margin-top: -13px;
+                margin-left: 23px;
+                background: #249C0A;
+                border-right: 1px solid #00FF0A;
+                border-radius: 50%;
+                flex-shrink: 0;
+                position: absolute;
+                font-size: 26px;
+
+            }
+        }
+        .contact_send:hover{
+            transition: 400ms all ease-in-out;
+            background-position: -300px 0;
+        }
+    }
+}

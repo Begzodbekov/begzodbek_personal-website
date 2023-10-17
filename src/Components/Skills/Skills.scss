@@ -64,8 +64,14 @@
                       padding: 22px 60px 13px 60px;
 
                     }
+                    .block4{
+                      padding: 22px 30px 13px 30px;
+                      margin-right: 80px;
+                    }
+                    .block4:hover{
+                      padding: 22px 30px 13px 30px;
+                    }
                     .block6{
-                              margin-left: -70px;
                               padding: 22px 40px 13px 40px;
 
                     }
@@ -76,11 +82,8 @@
                               background: rgba(166, 239, 239, 0.29);
                               backdrop-filter: blur(4.5px);
                     }
-                    .block7{
-                              margin-left: -71px;
-                    }
                     .block8{
-                        margin-right: 30px;
+                        margin-right: 70px;
                     }
           }
 }
