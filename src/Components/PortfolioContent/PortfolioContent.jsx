@@ -13,35 +13,35 @@ function PortfolioContent() {
           <div className='portfolio_hero'>
             <div className='portfolio_items'>
                 <img src={Project1} alt="" />
-                <div className='itema1' href="https://moviebox-website.vercel.app/">
+                <div className='itema1'>
                   <div className='portfolio_view'>
-                    <h1>View</h1>
+                    <a href='https://f3-badiat-proyekt.vercel.app/' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
             <div className='portfolio_items'>
                 <img src={Project2} alt="" />
-                {/* <div className='itema1' href="https://moviebox-website.vercel.app/">
+                <div className='itema1'>
                   <div className='portfolio_view'>
-                    <h1>View</h1>
+                    <a href='https://f3-team-project3.vercel.app/' className='portfolio_see'>See website</a>
                   </div>
-                </div> */}
+                </div>
             </div>
             <div className='portfolio_items'>
                 <img src={Project3} alt="" />
-                {/* <div className='itema1' href="https://moviebox-website.vercel.app/">
+                <div className='itema1'>
                   <div className='portfolio_view'>
-                    <h1>View</h1>
+                    <a href='https://moviebox-website.vercel.app/' className='portfolio_see'>See website</a>
                   </div>
-                </div> */}
+                </div>
             </div>
             <div className='portfolio_items'>
                 <img src={Project4} alt="" />
-                {/* <div className='itema1' href="https://moviebox-website.vercel.app/">
+                <div className='itema1'>
                   <div className='portfolio_view'>
-                    <h1>View</h1>
+                    <a href='https://my-projects-mu-lac.vercel.app/' className='portfolio_see'>See website</a>
                   </div>
-                </div> */}
+                </div>
             </div>
           </div>
         </div>
