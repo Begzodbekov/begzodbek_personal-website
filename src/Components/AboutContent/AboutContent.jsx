@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './AboutContent.scss'
 import Me from '../../Assets/Images/About-me.png'
 import Skills from '../Skills/Skills'
+import { myProject } from './About'
 function AboutContent() {
+  // const magnetref = useRef()
   return (
     <div className='AboutContent'>
           <div className="container">
@@ -13,7 +15,7 @@ function AboutContent() {
                               <img className='about_left_me' src={Me} alt="" />
                             </div>
                             <div className="about_right">
-                                <p className='about_right_description'>Hi, my full name is <span>Xusanboyev Begzodbek</span>, which was written on my passport. My second name is <span>Umar</span>. My nationality is <span>Uzbek</span>, and I have been living in <span>Andijon</span>, <span>Asaka</span>, since I was born.I love creating a wonderful website, working with friendly clients, and also working on collaboration with other people that help me improve my <span>knowledge</span> and <span>experience</span>.
+                                <p className='about_right_description'>Hi, my legal name is <span>Xusanboyev Begzodbek</span>. My nickname  is <span>Umar</span>. My nationality is <span>Uzbek</span>, and I have been living in <span>Andijon</span>, <span>Asaka</span>, since I was born.I love creating a wonderful website, working with friendly clients, and also working on collaboration with other people that help me improve my <span>knowledge</span> and <span>experience</span>.
                                 </p>
                                 <div className='about_right_items'>
                                   <div className="about_right_block1">

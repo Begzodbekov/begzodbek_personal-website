@@ -1,0 +1,41 @@
+.portfolio_inner{
+    .portfolio_title{
+        text-align: center;
+        color: #FFF;
+        font-family: Allerta;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.05px;
+        span{
+            color: #00FF0A;
+            font-family: Allerta;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.05px;
+        }
+    }
+    .portfolio_hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+        margin-left: 400px;
+        max-width: 900px;
+        flex-wrap: wrap;
+        .portfolio_items{
+            a{
+                img{
+                    width: 420px;
+                    height: 280px;
+                    object-fit:cover;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
