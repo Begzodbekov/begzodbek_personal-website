@@ -11,6 +11,7 @@
         align-items: center;
         .nav_list_item{
             max-width: 200px;
+            position: relative;
             a{
                 text-decoration: none;
                 color: #fff;
@@ -20,6 +21,7 @@
                 font-weight: 400;
                 line-height: normal;
             }
+            
             // .nav_item_a2::after{
             //     content: "";
             //     display: block;
@@ -28,8 +30,10 @@
             //     // margin-top: 5px;
             //     background-color: #00FF29;
             // }
+            
             .active::after{
                 content: '';
+                position: absolute;
                 display: block;
                 height: 2px;
                 width: 70%;

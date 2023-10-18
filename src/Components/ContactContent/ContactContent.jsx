@@ -31,7 +31,7 @@ function ContactContent() {
                         <div className='contact_right_inps'>
                             <input type="text" placeholder='Your First Name' />
                             <input type="text" placeholder='Your Last Name' />
-                            <input type="email" placeholder='Your Message' />
+                            <input type="email" placeholder='Email Address:' />
                             <textarea className='contact_textarea' placeholder='Your Message' name="" id="" cols="30" rows="10"></textarea>
                             <button className='contact_send'>Send Message <i class="bi bi-send"></i></button>
                         </div>

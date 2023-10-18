@@ -28,14 +28,51 @@
         max-width: 900px;
         flex-wrap: wrap;
         .portfolio_items{
-            a{
+            overflow: hidden;
+            width: 420px;
+            height: 280px;
                 img{
                     width: 420px;
                     height: 280px;
                     object-fit:cover;
                     border-radius: 10px;
+                    // cursor: pointer;
+                }
+                .itema1{
+                    // display: block;
+                    position: absolute;
+                    // margin-top: 240px;
+                    margin-left: -420px;
+                    visibility: hidden;
+                    color: #fff;
+                    background-color: #2A3038;
+                    padding: 120px 174px;
+                    opacity: 0.8;
+                    // padding: 120px 175px;
+                }
+
+        }
+        .portfolio_items:hover{
+            overflow: hidden;
+            .itema1{
+                text-align: center;
+                // text-decoration: none;
+                color: #fff;
+                margin-top: 0px;
+                margin-left: -420px;
+                position: absolute;
+                transition: 200ms all;
+                visibility: visible;
+                background-color: #2A3038;
+                padding: 120px 174px;
+                border-radius: 10px;
+                opacity: 0.8;
+                h1{
+                    opacity: 99 !important;
+                    color: #fff;
                 }
             }
+
         }
     }
 }
