@@ -5,32 +5,49 @@
 }
 .nav_inner{
     padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .nav_inner_left{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        // flex-grow: 1;
+        .nav_item_logo{
+            img{
+                max-width: 100px;
+                height: 100px;
+            }
+        }
+        .item1{
+            // flex-grow: 1;
+            // margin-right: -90px;
+        }
+        .item2 {
+            margin-left: 30px;
+        }
+    }
     .nav_list{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
         .nav_list_item{
-            max-width: 200px;
             position: relative;
+            margin-left: 100px;
+            // transition: 0.3s all ease;
             a{
                 text-decoration: none;
                 color: #fff;
                 font-family: Inter;
-                font-size: 23px;
+                font-size: 21.9px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
+                letter-spacing: 1px;
+                
             }
-            
-            // .nav_item_a2::after{
-            //     content: "";
-            //     display: block;
-            //     height: 2px;
-            //     width: 70%;
-            //     // margin-top: 5px;
-            //     background-color: #00FF29;
-            // }
-            
             .active::after{
                 content: '';
                 position: absolute;
@@ -40,22 +57,35 @@
                 margin-top: 5px;
                 background-color: #00FF29;
             }
-            .nav_item_logo{
-                img{
-                    width: 100px;
-                    height: 100px;
-                }
-            }
+            
         }
-        .item2 {
-            flex-grow: 1;
-            margin-left: -59px;
-        }
-        .item3{
-            margin-left: 620px;
-        }
+        
+        // .item3{
+        //     margin-left: 620px;
+        // }
         .item6{
             margin-right: 100px;
         }
     }
 }
+
+// @media screen and (max-width: 1670px) {
+    //     .nav_inner{
+        //         .nav_list{
+            //             max-width: 1543px;
+            //             // gap: 90px;
+            //             .item1{
+                //                 margin-left: 40px;
+                //             }
+                //             .item2 {
+                    //                 margin-right:-63px;
+                    //             }
+                    //             .item{
+//                 margin-left: 621px;
+//             }
+//             .item6{
+//                 margin-right: -43px;
+//             }
+//         }
+//     }
+// }

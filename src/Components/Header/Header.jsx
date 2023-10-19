@@ -10,13 +10,15 @@ function Header() {
         <div className="container">
           <div className="nav">
             <div className="nav_inner">
-              <ul className='nav_list'>
-                <li className='nav_list_item item1'>
+              <div className='nav_inner_left'>
+                <div className='item1'>
                   <Link to='/' className='nav_item_logo' ><img src={Logo} alt="" /></Link>
-                </li>
-                <li className='nav_list_item item2'>
-                  <Link className='nav_item_a1'><img src={Title} alt="" /></Link>
-                </li>
+                </div>
+                <div className='item2'>
+                <Link className='nav_item_a1'><img src={Title} alt="" /></Link>
+                </div>
+              </div>
+              <ul className='nav_list'>
                 <li className='nav_list_item item3'>
                   <Link to="/" className={location== '/'?'nav_item_a2 active':"nav_item_a2"}>Home</Link>
                 </li>
