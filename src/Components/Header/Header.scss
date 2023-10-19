@@ -36,7 +36,6 @@
         .nav_list_item{
             position: relative;
             margin-left: 100px;
-            // transition: 0.3s all ease;
             a{
                 text-decoration: none;
                 color: #fff;
@@ -145,6 +144,32 @@
         // padding: 40px 0px 230px 0px;
         // z-index: 99;
         height: 370px;
+        
+    }
+}
 
+
+@media screen and (max-width: 360px) {
+    .nav_inner{
+        z-index: -1;
+        .nav_inner_left{
+            .item1{
+                a{
+                    img{
+                        max-width: 70px;
+                        height: 70px;
+                    }
+                }
+            }
+            .item2{
+                margin-left: 20px;
+                a{
+                    img{
+                        max-width: 50px;
+                        height: 12px;
+                    }
+                }
+            }
+        }
     }
 }
