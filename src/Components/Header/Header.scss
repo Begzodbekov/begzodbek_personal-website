@@ -1,5 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 .Header{
+    // display: contents;
     z-index: 99;
     position: relative;
 }
@@ -33,6 +34,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        // margin-left:600px;
         .nav_list_item{
             position: relative;
             margin-left: 100px;
@@ -92,8 +94,9 @@
 
 @media screen and (max-width: 775px) {
     .nav_inner{
-        // position: absolute;
+        position: absolute;
         z-index: -1;
+        // max-width: 900px;
         .nav_burger{
             display: block;
             .bi{
@@ -140,11 +143,12 @@
     .nav_responsive{
         background: #2a303800;
         backdrop-filter: blur(4.5px);
-        // max-width: 100%;
+        position: absolute;
+        height: 370px;
+        width: 100%;
         // padding: 40px 0px 230px 0px;
         // z-index: 99;
-        height: 370px;
-        
+        // position: absolute;
     }
 }
 
