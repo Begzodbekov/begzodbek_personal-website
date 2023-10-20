@@ -1,22 +1,30 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Header.scss'
 import { Link, useLocation } from 'react-router-dom'
 import Logo from '../../Assets/Images/Header-logo.png'
 import Title from '../../Assets/Images/Header_umar.png'
 function Header() {
   const location = useLocation().pathname
+  const BurgerList = useRef()
+  const Nav2 = useRef()
+  const Burger = ()=>{
+    BurgerList.current.classList.toggle('responsive_list')
+    Nav2.current.classList.toggle('nav_responsive')
+  } 
   return (
-    <div className='Header'>
+    <div ref={Nav2} className='Header'>
         <div className="container">
           <div className="nav">
-            <div className="nav_inner">
-              <ul className='nav_list'>
-                <li className='nav_list_item item1'>
+            <div  className="nav_inner">
+              <div className='nav_inner_left'>
+                <div className='item1'>
                   <Link to='/' className='nav_item_logo' ><img src={Logo} alt="" /></Link>
-                </li>
-                <li className='nav_list_item item2'>
-                  <Link className='nav_item_a1'><img src={Title} alt="" /></Link>
-                </li>
+                </div>
+                <div className='item2'>
+                <Link className='nav_item_a1'><img src={Title} alt="" /></Link>
+                </div>
+              </div>
+              <ul ref={BurgerList} className='nav_list'>
                 <li className='nav_list_item item3'>
                   <Link to="/" className={location== '/'?'nav_item_a2 active':"nav_item_a2"}>Home</Link>
                 </li>
@@ -33,6 +41,9 @@ function Header() {
                   <Link to="/contact" className={location== '/contact'?'nav_item_a5 active':"nav_item_a5"}>Contact</Link>
                 </li>
               </ul>
+              <div onClick={Burger} className='nav_burger'>
+                 <i class="bi bi-list"></i>
+              </div>
             </div>
           </div>
         </div>
