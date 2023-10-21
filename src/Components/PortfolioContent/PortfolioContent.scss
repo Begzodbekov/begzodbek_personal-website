@@ -1,5 +1,5 @@
-.portfolio_inner{
-    .portfolio_title{
+.portfolio_inner {
+    .portfolio_title {
         text-align: center;
         color: #FFF;
         font-family: Allerta;
@@ -8,7 +8,8 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: 1.05px;
-        span{
+
+        span {
             color: #00FF0A;
             font-family: Allerta;
             font-size: 60px;
@@ -18,7 +19,8 @@
             letter-spacing: 1.05px;
         }
     }
-    .portfolio_hero{
+
+    .portfolio_hero {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -27,65 +29,70 @@
         margin-left: 400px;
         max-width: 900px;
         flex-wrap: wrap;
-        .portfolio_items{
+
+        .portfolio_items {
             // overflow: hidden;
             width: 420px;
             height: 280px;
             position: relative;
-                img{
-                    width: 420px;
-                    height: 280px;
-                    object-fit:cover;
-                    border-radius: 10px;
-                    // cursor: pointer;
-                    position: relative;
-                }
 
-                .itema1{
-                    position: absolute;
-                    top: 53%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    transition: all 0.4s ease;
-                    opacity: 0;
-                    height: 300px;
-                    width: 420px;
-                    padding-top: 120px;
-                    background-color: #2a303898;
-                    cursor: pointer;
-                    .portfolio_view{
-                        // position: relative;
-                        // top: 100px;
+            img {
+                width: 420px;
+                height: 280px;
+                object-fit: cover;
+                border-radius: 10px;
+                // cursor: pointer;
+                position: relative;
+            }
+
+            .itema1 {
+                position: absolute;
+                top: 53%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 0.4s ease;
+                opacity: 0;
+                height: 300px;
+                width: 420px;
+                padding-top: 120px;
+                background-color: #2a303898;
+                cursor: pointer;
+
+                .portfolio_view {
+                    // position: relative;
+                    // top: 100px;
+                    color: #fff;
+
+                    .portfolio_see {
+                        position: relative;
+                        font-weight: 600;
+                        font-size: 30px;
                         color: #fff;
-                        .portfolio_see{
-                            position: relative;
-                            font-weight: 600;
-                            font-size: 30px;
-                            color: #fff;
-                        }
-                        .portfolio_see::after{
-                            content: "s";
-                            width: 100%;
-                            height: 2px;
-                            background-color: #fff;
-                            display: inline-block;
-                            position: relative;
-                            top: -20px;
-                            transform: scaleX(0);
-                            transform-origin: right;
-                            transition: transform 0.4s ease;
-                        }
-
                     }
-                }
 
-                        .itema1:hover{
-                            opacity: 1;
-                        }
-                    
+                    .portfolio_see::after {
+                        content: "s";
+                        width: 100%;
+                        height: 2px;
+                        background-color: #fff;
+                        display: inline-block;
+                        position: relative;
+                        top: -20px;
+                        transform: scaleX(0);
+                        transform-origin: right;
+                        transition: transform 0.4s ease;
+                    }
+
+                }
+            }
+
+            .itema1:hover {
+                opacity: 1;
+            }
+
         }
 
     }

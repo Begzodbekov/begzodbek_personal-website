@@ -1,37 +1,42 @@
-.Hero{
+.Hero {
     // padding-top:144px ;
     // position: absolute;
     z-index: 1;
-    .hero_social{
+
+    .hero_social {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: column; 
+        flex-direction: column;
         // margin-left: -21px;
         left: 1%;
         margin-top: -140px;
         line-height: 51px;
         position: fixed;
-        .bi::before{
-            font-size: 30px;    
+
+        .bi::before {
+            font-size: 30px;
             color: #249C0A;
             cursor: pointer;
         }
     }
-    .hero_inner{
+
+    .hero_inner {
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-left: 100px;
+
         // position: absolute;
-        .hero_left{
+        .hero_left {
             display: flex;
             justify-content: space-around;
             align-items: center;
             padding-top: -16px;
             margin-left: -60px;
             max-width: 900px;
-            .hero_left_name{
+
+            .hero_left_name {
                 color: #FFF;
                 font-family: Allerta;
                 font-size: 70px;
@@ -39,13 +44,15 @@
                 font-weight: 400;
                 line-height: normal;
                 letter-spacing: 1.05px;
-                .hero_left_span{
-                    margin-left:25px;
+
+                .hero_left_span {
+                    margin-left: 25px;
                     position: relative;
                     color: transparent;
                     -webkit-text-stroke: 0.1vw #383d52;
                 }
-                .hero_left_span::before{
+
+                .hero_left_span::before {
                     content: attr(data-text);
                     position: absolute;
                     top: 0;
@@ -61,7 +68,8 @@
                 }
 
             }
-            .hero_left_definintion{
+
+            .hero_left_definintion {
                 color: #D7D7D7;
                 font-family: Allerta;
                 font-size: 24px;
@@ -72,7 +80,8 @@
                 max-width: 650px;
                 margin-top: 30px;
             }
-            .hero_left_button{
+
+            .hero_left_button {
                 border-radius: 50px;
                 border: 1px solid #249C0A;
                 padding: 20px 90px 20px 51px;
@@ -81,10 +90,11 @@
                 margin-top: 60px;
                 position: relative;
                 background: -webkit-linear-gradient(0deg, transparent 50%, #249C0A 50%);
-                background-size: 589px  417px;
+                background-size: 589px 417px;
                 cursor: pointer;
-                .bi_right{
-                    background: #249C0A; 
+
+                .bi_right {
+                    background: #249C0A;
                     padding: 15px 15px;
                     margin-top: -20px;
                     margin-left: 31px;
@@ -97,13 +107,14 @@
                 }
             }
 
-            .hero_left_button:hover{
+            .hero_left_button:hover {
                 transition: 500ms all ease-in-out;
                 background-position: -300px 0;
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 object-fit: cover;
                 height: 763px;
                 margin-left: -204px;
@@ -112,21 +123,27 @@
         }
     }
 }
+
 @keyframes animate {
-    0%, 10%, 100%{
+
+    0%,
+    10%,
+    100% {
         width: 0;
     }
-    70%{
+
+    70% {
         width: 100%;
     }
 }
 
 
 @media screen and (max-width: 1670px) {
-    .hero_inner{
+    .hero_inner {
         margin-left: -102px !important;
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 // display: block;
                 height: 743px !important;
                 max-width: 620px;
@@ -139,33 +156,39 @@
 }
 
 @media screen and (max-width: 1450px) {
-    .hero_inner{
-        .hero_left{
+    .hero_inner {
+        .hero_left {
             margin-top: -60px;
-            .hero_social{
+
+            .hero_social {
                 left: 1%;
                 margin-top: -100px;
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 60px;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     max-width: 600px;
                     font-size: 20px;
                 }
-                .hero_left_button{
+
+                .hero_left_button {
                     padding: 15px 70px 15px 41px;
-                    .bi_right{
-                     padding: 10px 10px;
-                     margin-top: -15px;
-                     margin-left: 20px;
+
+                    .bi_right {
+                        padding: 10px 10px;
+                        margin-top: -15px;
+                        margin-left: 20px;
                     }
                 }
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 height: 723px !important;
                 max-width: 500px;
                 margin-top: 40px;
@@ -176,34 +199,40 @@
 }
 
 @media screen and (max-width: 1350px) {
-    .hero_inner{
-        .hero_left{
+    .hero_inner {
+        .hero_left {
             margin-top: -105px;
-            .hero_social{
+
+            .hero_social {
                 left: 1%;
                 margin-top: -64px;
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 55px;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     max-width: 600px;
                     font-size: 18px;
                 }
-                .hero_left_button{
+
+                .hero_left_button {
                     padding: 10px 60px 10px 31px;
                     font-size: 19px;
-                    .bi_right{
-                     padding: 4px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                    .bi_right {
+                        padding: 4px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 height: 723px !important;
                 max-width: 500px;
                 margin-top: 40px;
@@ -215,35 +244,42 @@
 
 
 @media screen and (max-width: 1260px) {
-    .hero_inner{
+    .hero_inner {
         margin-left: -20px !important;
-        .hero_left{
+
+        .hero_left {
             margin-top: -105px;
-            .hero_social{
+
+            .hero_social {
                 left: 1%;
                 margin-top: -64px;
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 55px;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     max-width: 600px;
                     font-size: 18px;
                 }
-                .hero_left_button{
+
+                .hero_left_button {
                     padding: 10px 60px 10px 31px;
                     font-size: 19px;
-                    .bi_right{
-                     padding: 4px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                    .bi_right {
+                        padding: 4px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 height: 723px !important;
                 max-width: 500px;
                 margin-top: 40px;
@@ -254,35 +290,42 @@
 }
 
 @media screen and (max-width: 1140px) {
-    .hero_inner{
-        margin-left:7px !important;
-        .hero_left{
+    .hero_inner {
+        margin-left: 7px !important;
+
+        .hero_left {
             margin-top: -105px;
-            .hero_social{
+
+            .hero_social {
                 left: 1%;
                 margin-top: -64px;
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 55px;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     max-width: 600px;
                     font-size: 18px;
                 }
-                .hero_left_button{
+
+                .hero_left_button {
                     padding: 10px 60px 10px 31px;
                     font-size: 19px;
-                    .bi_right{
-                     padding: 4px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                    .bi_right {
+                        padding: 4px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 height: 723px !important;
                 max-width: 500px;
                 margin-top: 40px;
@@ -293,35 +336,41 @@
 }
 
 @media screen and (max-width: 1060px) {
-    .hero_inner{
-        .hero_left{
+    .hero_inner {
+        .hero_left {
             margin-top: -105px;
-            .hero_social{
+
+            .hero_social {
                 left: 1%;
                 margin-top: -64px;
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 50px;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     max-width: 500px;
                     font-size: 17px;
                 }
-                .hero_left_button{
+
+                .hero_left_button {
                     margin-top: 40px;
                     padding: 10px 60px 10px 31px;
                     font-size: 19px;
-                    .bi_right{
-                     padding: 4px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                    .bi_right {
+                        padding: 4px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 height: 603px !important;
                 max-width: 519px;
                 margin-top: 70px;
@@ -334,48 +383,57 @@
 
 
 @media screen and (max-width: 775px) {
-    .Hero{
+    .Hero {
         // position: absolute;
         // z-index: 1;
         // margin-top: -158px;
         // margin-left: 130px;
     }
-    .hero_inner{
+
+    .hero_inner {
         padding-top: 400px;
-        .hero_left{
+
+        .hero_left {
             margin-left: 80px !important;
-            .hero_social{
+
+            .hero_social {
                 left: 2%;
                 margin-top: -80px;
-                .bi::before{
-                    font-size: 30px;    
+
+                .bi::before {
+                    font-size: 30px;
                     color: #249C0A;
                     cursor: pointer;
                 }
             }
-            .hero_left_bottom{
 
-                .hero_left_name{
+            .hero_left_bottom {
+
+                .hero_left_name {
                     font-size: 60px;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     max-width: 560px;
                     font-size: 20px;
                 }
-                .hero_left_button{
+
+                .hero_left_button {
                     margin-top: 50px;
                     font-size: 20px;
                     padding: 15px 70px 15px 31px;
-                    .bi_right{
-                     padding: 10px 10px;
-                     margin-top: -15px;
-                     margin-left: 20px;
+
+                    .bi_right {
+                        padding: 10px 10px;
+                        margin-top: -15px;
+                        margin-left: 20px;
                     }
                 }
             }
         }
-        .hero_right{
-            img{
+
+        .hero_right {
+            img {
                 display: none;
             }
         }
@@ -387,30 +445,35 @@
 
 @media screen and (max-width: 638px) {
 
-    .hero_inner{
-        .hero_left{
-            .hero_social{
+    .hero_inner {
+        .hero_left {
+            .hero_social {
                 left: 2%;
                 margin-top: -50px;
-                .bi::before{
-                    font-size: 30px;    
+
+                .bi::before {
+                    font-size: 30px;
                     color: #249C0A;
                     cursor: pointer;
                 }
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 50px !important;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     font-size: 17px !important;
                 }
-                .hero_left_button{
-                    padding: 10px 60px 10px 31px ;
-                    .bi_right{
-                     padding: 5px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                .hero_left_button {
+                    padding: 10px 60px 10px 31px;
+
+                    .bi_right {
+                        padding: 5px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
@@ -425,31 +488,37 @@
 
 @media screen and (max-width: 575px) {
 
-    .hero_inner{
+    .hero_inner {
         margin-left: -20px !important;
-        .hero_left{
-            .hero_social{
+
+        .hero_left {
+            .hero_social {
                 left: 2%;
                 margin-top: -50px;
-                .bi::before{
-                    font-size: 30px;    
+
+                .bi::before {
+                    font-size: 30px;
                     color: #249C0A;
                     cursor: pointer;
                 }
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 45px !important;
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     font-size: 15px !important;
                 }
-                .hero_left_button{
-                    padding: 10px 60px 10px 31px ;
-                    .bi_right{
-                     padding: 5px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                .hero_left_button {
+                    padding: 10px 60px 10px 31px;
+
+                    .bi_right {
+                        padding: 5px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
@@ -462,35 +531,42 @@
 
 @media screen and (max-width: 510px) {
 
-    .hero_inner{
+    .hero_inner {
         margin-left: -20px !important;
-        .hero_left{
-            .hero_social{
+
+        .hero_left {
+            .hero_social {
                 left: 2%;
                 margin-top: -50px;
-                .bi::before{
-                    font-size: 30px;    
+
+                .bi::before {
+                    font-size: 30px;
                     color: #249C0A;
                     cursor: pointer;
                 }
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 45px !important;
-                    .hero_left_span{
+
+                    .hero_left_span {
                         margin-left: 0;
                     }
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     font-size: 15px !important;
                 }
-                .hero_left_button{
-                    padding: 10px 60px 10px 31px ;
+
+                .hero_left_button {
+                    padding: 10px 60px 10px 31px;
                     margin-top: 30px;
-                    .bi_right{
-                     padding: 5px 5px;
-                     margin-top: -10px;
-                     margin-left: 19px;
+
+                    .bi_right {
+                        padding: 5px 5px;
+                        margin-top: -10px;
+                        margin-left: 19px;
                     }
                 }
             }
@@ -501,18 +577,20 @@
 
 
 @media screen and (max-width: 510px) {
-    .hero_inner{
-        .hero_left{
-            .hero_left_bottom{
-                .hero_left_name{
+    .hero_inner {
+        .hero_left {
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 45px !important;
-                    .hero_left_span{
-                        margin-left:0;
+
+                    .hero_left_span {
+                        margin-left: 0;
                         position: relative;
                         color: transparent;
                         -webkit-text-stroke: 0.1vw #383d52;
                     }
-                    .hero_left_span::before{
+
+                    .hero_left_span::before {
                         content: attr(data-text);
                         position: absolute;
                         top: 0;
@@ -534,56 +612,126 @@
 
 
 @media screen and (max-width: 360px) {
-    .hero_inner{
+    .hero_inner {
         margin-left: -70px !important;
         padding-top: 250px;
-        .hero_left{
 
-            .hero_social{
+        .hero_left {
+
+            .hero_social {
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
                 flex-direction: row;
                 max-width: 800px;
                 left: 2%;
-                margin-top: 490px;
+                margin-top: 550px;
                 position: absolute;
-                .bi::before{
-                    font-size: 30px;    
+
+                .bi::before {
+                    font-size: 30px;
                     color: #249C0A;
                     margin-left: 30px;
                     cursor: pointer;
                 }
             }
-            .hero_left_bottom{
-                .hero_left_name{
+
+            .hero_left_bottom {
+                .hero_left_name {
                     font-size: 35px !important;
-                    .hero_left_span{
-                        margin-left:0;
+
+                    .hero_left_span {
+                        margin-left: 0;
 
                     }
-                    .hero_left_span::before{
+
+                    .hero_left_span::before {
                         white-space: nowrap;
 
                     }
-                    
+
                 }
-                .hero_left_definintion{
+
+                .hero_left_definintion {
                     font-size: 16px !important;
                     margin-top: 10px;
                     letter-spacing: 2px;
                     line-height: 20px;
                 }
-                .hero_left_button{
-                    padding: 13px 50px 13px 21px ;
+
+                .hero_left_button {
+                    padding: 13px 50px 13px 21px;
                     margin-top: 20px;
                     font-size: 17px;
-                    .bi_right{
-                     padding: 11px 11px;
-                     font-size: 20px;
-                     margin-top: -12px;
-                     margin-left: 8px;
+
+                    .bi_right {
+                        padding: 11px 11px;
+                        font-size: 20px;
+                        margin-top: -12px;
+                        margin-left: 8px;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 333px) {
+    .hero_inner {
+        .hero_left {
+            .hero_left_span::before {
+                white-space: wrap !important;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 316px) {
+    .hero_inner {
+        .hero_left {
+            .hero_social {
+                .bi::before {
+                    font-size: 30px;
+                    color: #249C0A;
+                    margin-left: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 292px) {
+    .hero_inner {
+        .hero_left {
+            .hero_social {
+                margin-left: 10px;
+
+                .bi::before {
+                    font-size: 30px;
+                    color: #249C0A;
+                    margin-left: 17px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 274px) {
+    .hero_inner {
+        .hero_left {
+            .hero_social {
+                margin-left: 10px;
+
+                .bi::before {
+                    font-size: 25px;
+                    color: #249C0A;
+                    margin-left: 17px;
+                    cursor: pointer;
                 }
             }
         }

@@ -1,144 +1,572 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
-.about_inner{
-          .about-title{
-                    text-align: center;
-                    color: #FFF;
-                    font-family: Allerta;
-                    font-size: 60px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    letter-spacing: 1.05px;  
-                    span{
-                              color: #00FF0A;
-                    }
+.about_inner {
+  .about-title {
+    text-align: center;
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.05px;
+
+    span {
+      color: #00FF0A;
+    }
+  }
+
+  .about_hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .about_left {
+      .about_left_me {
+        height: 763px;
+        margin-left: -178px;
+        margin-top: -69px;
+      }
+    }
+
+    .about_right {
+      margin-left: -90px;
+
+      .about_right_description {
+        color: #FFF;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 1000px;
+        margin-top: -113px;
+        letter-spacing: 1px;
+
+        span {
+          color: #00FF0A;
+        }
+      }
+
+      .about_right_items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 70px;
+        max-width: 800px;
+
+        .about_right_block1 {
+          padding: 14px 78px 52px 30px;
+          border-radius: 10px;
+          border: 1px solid #969B95;
+          background: rgba(166, 239, 239, 0.29);
+          backdrop-filter: blur(4.5px);
+
+          h1 {
+            color: #00FF0A;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
           }
-          .about_hero{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    .about_left{
-                              .about_left_me{
-                                        height: 763px;
-                                        margin-left: -178px;
-                                        margin-top: -69px;
-                              }
-                    }
-                    .about_right{
-                      margin-left: -90px;
-                              .about_right_description{
-                                        color: #FFF;
-                                        font-size: 25px;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        line-height: normal;
-                                        max-width: 1000px;
-                                        margin-top: -113px;
-                                        span{
-                                                  color: #00FF0A;
-                                        }
-                              }
-                              .about_right_items{
-                                        display: flex;
-                                        justify-content: space-around;
-                                        align-items: center;
-                                        margin-top: 70px;
-                                        max-width: 800px;
-                                        .about_right_block1{
-                                                  padding: 14px 78px 52px 30px;
-                                                  border-radius: 10px;
-                                                  border: 1px solid #969B95;
-                                                  background: rgba(166, 239, 239, 0.29);
-                                                  backdrop-filter: blur(4.5px);
-                                                  h1{
-                                                            color: #00FF0A;
-                                                            font-size: 60px;
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            line-height: normal;
-                                                  }
-                                                  span{
-                                                            display: block;
-                                                            width: 50px;
-                                                            height: 2px;
-                                                            background: #BABABA;
-                                                            margin-left: -2px;
-                                                  }
-                                                  p{
-                                                            margin-left: 60px;
-                                                            color: #FFF;
-                                                            font-size: 25px;
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            line-height: normal;
-                                                            letter-spacing: 1px;
-                                                            margin-top: -15px;
-                                                  }
-                                        }
-                                        .about_right_block2{
-                                                  padding: 14px 78px 52px 30px;
-                                                  border-radius: 10px;
-                                                  border: 1px solid #969B95;
-                                                  background: rgba(166, 239, 239, 0.29);
-                                                  backdrop-filter: blur(4.5px);
-                                                  h1{
-                                                            color: #00FF0A;
-                                                            font-size: 60px;
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            line-height: normal;
-                                                  }
-                                                  span{
-                                                            display: block;
-                                                            width: 50px;
-                                                            height: 2px;
-                                                            background: #BABABA;
-                                                            margin-left: -2px;
-                                                  }
-                                                  p{
-                                                            margin-left: 60px;
-                                                            color: #FFF;
-                                                            font-size: 25px;
-                                                            font-style: normal;
-                                                            font-weight: 400;
-                                                            line-height: normal;
-                                                            letter-spacing: 1px;
-                                                            margin-top: -15px;
-                                                  }
-                                        }
-                              }
-                              .about_right_CV{
-                                margin-top: 30px;
-                                margin-left: 280px;
-                                padding: 15px 70px 15px 30px;
-                                border-radius: 35px;
-                                border: 1px solid #00FF0A;
-                                background-color: transparent;
-                                font-size: 18px;
-                                color: #fff;
-                                position: relative;
-                                background: -webkit-linear-gradient(0deg, transparent 50%, #249C0A 50%);
-                                background-size: 589px  417px;
-                                cursor: pointer;
-                                .cv_bi{
-                                    background: #249C0A; 
-                                    padding: 10px 10px 10px 10px;
-                                    margin-top: -15px;
-                                    margin-left: 23px;
-                                    background: #249C0A;
-                                    border-right: 1px solid #00FF0A;
-                                    border-radius: 50%;
-                                    flex-shrink: 0;
-                                    position: absolute;
-                                    font-size: 26px;
-                                    
-                                }
-                              }
-                              .about_right_CV:hover{
-                                transition: 700ms all ease-in-out;
-                                background-position: -300px 0;
-                            }
-                    }
+
+          span {
+            display: block;
+            width: 50px;
+            height: 2px;
+            background: #BABABA;
+            margin-left: -2px;
           }
+
+          p {
+            margin-left: 60px;
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1px;
+            margin-top: -15px;
+          }
+        }
+
+        .about_right_block2 {
+          padding: 14px 78px 52px 30px;
+          border-radius: 10px;
+          border: 1px solid #969B95;
+          background: rgba(166, 239, 239, 0.29);
+          backdrop-filter: blur(4.5px);
+
+          h1 {
+            color: #00FF0A;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+
+          span {
+            display: block;
+            width: 50px;
+            height: 2px;
+            background: #BABABA;
+            margin-left: -2px;
+          }
+
+          p {
+            margin-left: 60px;
+            color: #FFF;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1px;
+            margin-top: -15px;
+          }
+        }
+      }
+
+      .about_right_CV {
+        margin-top: 30px;
+        margin-left: 280px;
+        padding: 15px 70px 15px 30px;
+        border-radius: 35px;
+        border: 1px solid #00FF0A;
+        background-color: transparent;
+        font-size: 18px;
+        color: #fff;
+        position: relative;
+        background: -webkit-linear-gradient(0deg, transparent 50%, #249C0A 50%);
+        background-size: 589px 417px;
+        cursor: pointer;
+
+        .cv_bi {
+          background: #249C0A;
+          padding: 10px 10px 10px 10px;
+          margin-top: -15px;
+          margin-left: 23px;
+          background: #249C0A;
+          border-right: 1px solid #00FF0A;
+          border-radius: 50%;
+          flex-shrink: 0;
+          position: absolute;
+          font-size: 26px;
+
+        }
+      }
+
+      .about_right_CV:hover {
+        transition: 700ms all ease-in-out;
+        background-position: -300px 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1430px) {
+  .about_inner{
+    .about_hero{
+      .about_left{
+        .about_left_me {
+          transition:  0.5s all ease-in-out;
+          height: 763px;
+          margin-left: -308px;
+          margin-top: -69px;
+        }
+      }
+      .about_right{
+        .about_right_description{
+          // margin-top: -75px;
+          font-size: 21px;
+          letter-spacing: 1px;
+        }
+        .about_right_items{
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1290px) {
+  .about_inner{
+    .about_hero{
+      .about_left{
+        .about_left_me {
+          transition:  0.5s all ease-in-out;
+          height: 763px;
+          margin-left: -368px;
+          margin-top: -69px;
+        }
+      }
+      .about_right{
+        .about_right_description{
+          // margin-top: -75px;
+          font-size: 21px;
+          letter-spacing: 1px;
+        }
+        .about_right_items{
+          margin-top: 40px;
+        }
+        .about_right_CV{
+          margin-left: 230px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1190px) {
+  .about_inner {
+    .about_hero {
+      .about_left {
+        .about_left_me {
+          transition: 0.5s all ease-in-out;
+          height: 763px;
+          margin-left: -368px;
+          margin-top: -69px;
+        }
+      }
+
+      .about_right {
+        .about_right_description {
+          // margin-top: -75px;
+          font-size: 21px;
+          letter-spacing: 1px;
+        }
+
+        .about_right_items {
+          margin-top: 40px;
+
+          .about_right_block1 {
+            padding: 12px 65px 47px 20px;
+
+            h1 {
+              font-size: 50px;
+              margin-left: 10px;
+            }
+
+            span {
+              width: 40px;
+              margin-left: 5px;
+            }
+
+          }
+
+          .about_right_block2 {
+            padding: 12px 65px 47px 20px;
+
+            h1 {
+              font-size: 50px;
+              margin-left: 10px;
+            }
+
+            span {
+              width: 40px;
+              margin-left: 5px;
+            }
+
+          }
+        }
+
+        .about_right_CV {
+          margin-left: 200px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1140px) {
+  .about_inner {
+    .about_hero {
+      .about_right {
+        margin-left: -111px;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1080px) {
+  .about_inner {
+    .about_hero {
+
+      .about_right {
+        margin-left: -161px;
+        .about_right_description {
+          // margin-top: -75px;
+          font-size: 19px;
+          letter-spacing: 1px;
+          line-height: 30px;
+        }
+
+        .about_right_items {
+          margin-top: 40px;
+
+          .about_right_block1 {
+            padding: 10px 60px 40px 20px;
+
+          }
+
+          .about_right_block2 {
+            padding: 10px 60px 40px 20px;
+
+          }
+        }
+
+        .about_right_CV {
+          margin-left: 160px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1060px) {
+  .about_inner {
+    .about_hero {
+
+      .about_right {
+        margin-left: -201px;
+
+        .about_right_items {
+          margin-top: 40px;
+          margin-left: -30px;
+          .about_right_block1 {
+            padding: 5px 45px 30px 15px;
+            h1{
+              font-size: 50px;
+            }
+            p{
+              font-size: 22px;
+            }
+          }
+
+          .about_right_block2 {
+            padding: 5px 45px 30px 15px;
+            margin-left: -70px;
+            h1{
+              font-size: 50px;
+            }
+            p{
+              font-size: 22px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .about_inner {
+    .about_hero {
+      .about_left{
+        .about_left_me{
+          height: 673px;
+          margin-left: -368px;
+          margin-top: -69px;
+        }
+      }
+      .about_right {
+        margin-left: -201px;
+
+        .about_right_items {
+          margin-top: 40px;
+          margin-left: -30px;
+          .about_right_block1 {
+            padding: 5px 45px 30px 15px;
+            h1{
+              font-size: 50px;
+            }
+            p{
+              font-size: 22px;
+            }
+          }
+
+          .about_right_block2 {
+            padding: 5px 45px 30px 15px;
+            margin-left: -70px;
+            h1{
+              font-size: 50px;
+            }
+            p{
+              font-size: 22px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 880px) {
+  .about_inner {
+    .about_hero {
+      .about_left{
+        .about_left_me{
+          display: none;
+        }
+      }
+      .about_right {
+        margin-left: 41px;
+        margin-right: 50px;
+        margin-top: 200px;
+        .about_right_description{
+          max-width: 670px;
+        }
+        .about_right_items {
+          margin-top: 40px;
+          margin-left: -30px;
+          .about_right_block1 {
+            padding: 5px 45px 30px 15px;
+            h1{
+              font-size: 50px;
+            }
+            p{
+              font-size: 22px;
+            }
+          }
+
+          .about_right_block2 {
+            padding: 5px 45px 30px 15px;
+            margin-left: -70px;
+            h1{
+              font-size: 50px;
+            }
+            p{
+              font-size: 22px;
+            }
+          }
+        }
+
+        .about_right_CV {
+          margin-left: 200px;
+        }
+
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 775px) {
+  .about_inner {
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .about_inner {
+    padding-top: 150px;
+    .about_hero{
+      .about_right{
+
+        .about_right_CV {
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .about_inner {
+    padding-top: 150px;
+    .about_hero{
+      .about_right{
+
+        .about_right_items {
+          margin-top: 40px;
+          margin-left: -30px;
+          .about_right_block1 {
+            padding: 5px 40px 30px 15px;
+            h1{
+              font-size: 40px;
+            }
+            p{
+              font-size: 20px;
+            }
+          }
+
+          .about_right_block2 {
+            padding: 5px 40px 30px 15px;
+            margin-left: -70px;
+            h1{
+              font-size: 40px;
+            }
+            p{
+              font-size: 20px;
+            }
+          }
+        }
+
+
+        .about_right_CV {
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 610px) {
+  .about_inner {
+    padding-top: 150px;
+    .about_hero{
+      .about_right{
+
+        .about_right_items {
+          margin-top: 40px;
+          margin-left: -30px;
+          .about_right_block1 {
+            padding: 5px 30px 25px 10px;
+            h1{
+              font-size: 40px;
+            }
+            p{
+              font-size: 17px;
+            }
+          }
+
+          .about_right_block2 {
+            padding: 5px 30px 25px 10px;
+            margin-left: -70px;
+            h1{
+              font-size: 40px;
+            }
+            p{
+              font-size: 17px;
+            }
+          }
+        }
+
+
+        .about_right_CV {
+          margin-left: 100px;
+        }
+      }
+    }
+  }
 }
