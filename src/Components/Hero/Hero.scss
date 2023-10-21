@@ -6,7 +6,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column; 
         // margin-left: -21px;
         left: 1%;
         margin-top: -140px;
@@ -535,15 +535,49 @@
 
 @media screen and (max-width: 360px) {
     .hero_inner{
+        margin-left: -70px !important;
         padding-top: 250px;
         .hero_left{
+
             .hero_social{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: row;
+                max-width: 800px;
                 left: 2%;
-                margin-top: -90px;
+                margin-top: 320px;
+                position: absolute;
                 .bi::before{
                     font-size: 30px;    
                     color: #249C0A;
+                    margin-left: 30px;
                     cursor: pointer;
+                }
+            }
+            .hero_left_bottom{
+                .hero_left_name{
+                    font-size: 35px !important;
+                    .hero_left_span{
+                        margin-left: 0;
+                    }
+                }
+                .hero_left_definintion{
+                    font-size: 12px !important;
+                    margin-top: 10px;
+                    letter-spacing: 1px;
+                    line-height: 18px;
+                }
+                .hero_left_button{
+                    padding: 7px 40px 7px 21px ;
+                    margin-top: 20px;
+                    font-size: 14px;
+                    .bi_right{
+                     padding: 7px 7px;
+                     font-size: 15px;
+                     margin-top: -7px;
+                     margin-left: 10px;
+                    }
                 }
             }
         }

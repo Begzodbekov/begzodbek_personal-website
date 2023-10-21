@@ -291,12 +291,14 @@
 @media screen and (max-width: 360px) {
     .nav_inner{
         z-index: -1;
+        margin-top: -20px;
         .nav_inner_left{
             .item1{
                 a{
                     img{
                         max-width: 70px;
                         height: 70px;
+                        margin-left: -15px;
                     }
                 }
             }
@@ -308,6 +310,14 @@
                         height: 12px;
                     }
                 }
+            }
+        }
+        .nav_burger{
+            margin-left: 175px;
+            .bi{
+                font-size: 30px;
+                color: #fff;
+                cursor: pointer;
             }
         }
     }
