@@ -546,7 +546,7 @@
                 flex-direction: row;
                 max-width: 800px;
                 left: 2%;
-                margin-top: 320px;
+                margin-top: 400px;
                 position: absolute;
                 .bi::before{
                     font-size: 30px;    
@@ -559,8 +559,14 @@
                 .hero_left_name{
                     font-size: 35px !important;
                     .hero_left_span{
-                        margin-left: 0;
+                        margin-left:0;
+
                     }
+                    .hero_left_span::before{
+                        white-space: nowrap;
+
+                    }
+                    
                 }
                 .hero_left_definintion{
                     font-size: 12px !important;
