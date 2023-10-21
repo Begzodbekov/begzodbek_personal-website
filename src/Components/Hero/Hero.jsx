@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.scss'
 import { Link } from 'react-router-dom'
-import Man from '../../Assets/Images/hero_me.png'
+// import Man from '../../Assets/Images/'
+import Man from '../../Assets/Images/hero_me.svg'
 function Hero() {
   return (
     <div className='Hero'>

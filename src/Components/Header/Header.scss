@@ -96,9 +96,17 @@
     .nav_inner{
         position: absolute;
         z-index: -1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 900px;
         // max-width: 900px;
+        .nav_inner_left{
+            flex-grow: 1;
+        }
         .nav_burger{
             display: block;
+            margin-left: 478px;
             .bi{
                 font-size: 40px;
                 color: #fff;
@@ -152,6 +160,133 @@
     }
 }
 
+
+@media screen and (max-width: 736px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 447px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 430px;
+        }
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 380px;
+        }
+    }
+}
+
+@media screen and (max-width: 638px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 350px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 610px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 320px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 290px;
+        }
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 270px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 528px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 250px;
+        }
+    }
+}
+@media screen and (max-width: 510px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 220px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 200px;
+        }
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 170px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 150px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 405px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 135px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .nav_inner{
+        .nav_burger{
+            margin-left: 100px;
+        }
+    }
+}
 
 @media screen and (max-width: 360px) {
     .nav_inner{

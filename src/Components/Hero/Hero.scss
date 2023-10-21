@@ -22,7 +22,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-left: 150px;
+        margin-left: 100px;
         // position: absolute;
         .hero_left{
             display: flex;
@@ -120,6 +120,7 @@
         width: 100%;
     }
 }
+
 
 @media screen and (max-width: 1670px) {
     .hero_inner{
@@ -322,13 +323,15 @@
         .hero_right{
             img{
                 height: 603px !important;
-                max-width: 400px;
+                max-width: 519px;
                 margin-top: 70px;
-                margin-left: -339px !important;
+                margin-left: -439px !important;
             }
         }
     }
 }
+
+
 
 @media screen and (max-width: 775px) {
     .Hero{
@@ -338,33 +341,208 @@
         // margin-left: 130px;
     }
     .hero_inner{
+        padding-top: 400px;
+        .hero_left{
+            margin-left: 80px !important;
+            .hero_social{
+                left: 2%;
+                margin-top: -80px;
+                .bi::before{
+                    font-size: 30px;    
+                    color: #249C0A;
+                    cursor: pointer;
+                }
+            }
+            .hero_left_bottom{
+
+                .hero_left_name{
+                    font-size: 60px;
+                }
+                .hero_left_definintion{
+                    max-width: 560px;
+                    font-size: 20px;
+                }
+                .hero_left_button{
+                    margin-top: 50px;
+                    font-size: 20px;
+                    padding: 15px 70px 15px 31px;
+                    .bi_right{
+                     padding: 10px 10px;
+                     margin-top: -15px;
+                     margin-left: 20px;
+                    }
+                }
+            }
+        }
+        .hero_right{
+            img{
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 638px) {
+
+    .hero_inner{
         .hero_left{
             .hero_social{
                 left: 2%;
-                margin-top: -20px;
+                margin-top: -50px;
                 .bi::before{
-                    font-size: 27px;    
+                    font-size: 30px;    
                     color: #249C0A;
                     cursor: pointer;
                 }
             }
             .hero_left_bottom{
                 .hero_left_name{
-                    font-size: 50px;
+                    font-size: 50px !important;
                 }
                 .hero_left_definintion{
-                    max-width: 560px;
-                    font-size: 17px;
+                    font-size: 17px !important;
                 }
                 .hero_left_button{
-                    margin-top: 20px;
-                    font-size: 17px;
-                    padding: 10px 60px 10px 31px;
+                    padding: 10px 60px 10px 31px ;
                     .bi_right{
-                     padding: 3px 3px;
+                     padding: 5px 5px;
                      margin-top: -10px;
-                     margin-left: 25px;
+                     margin-left: 19px;
                     }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 575px) {
+
+    .hero_inner{
+        margin-left: -20px !important;
+        .hero_left{
+            .hero_social{
+                left: 2%;
+                margin-top: -50px;
+                .bi::before{
+                    font-size: 30px;    
+                    color: #249C0A;
+                    cursor: pointer;
+                }
+            }
+            .hero_left_bottom{
+                .hero_left_name{
+                    font-size: 45px !important;
+                }
+                .hero_left_definintion{
+                    font-size: 15px !important;
+                }
+                .hero_left_button{
+                    padding: 10px 60px 10px 31px ;
+                    .bi_right{
+                     padding: 5px 5px;
+                     margin-top: -10px;
+                     margin-left: 19px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 510px) {
+
+    .hero_inner{
+        margin-left: -20px !important;
+        .hero_left{
+            .hero_social{
+                left: 2%;
+                margin-top: -50px;
+                .bi::before{
+                    font-size: 30px;    
+                    color: #249C0A;
+                    cursor: pointer;
+                }
+            }
+            .hero_left_bottom{
+                .hero_left_name{
+                    font-size: 45px !important;
+                    .hero_left_span{
+                        margin-left: 0;
+                    }
+                }
+                .hero_left_definintion{
+                    font-size: 15px !important;
+                }
+                .hero_left_button{
+                    padding: 10px 60px 10px 31px ;
+                    margin-top: 30px;
+                    .bi_right{
+                     padding: 5px 5px;
+                     margin-top: -10px;
+                     margin-left: 19px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 510px) {
+    .hero_inner{
+        .hero_left{
+            .hero_left_bottom{
+                .hero_left_name{
+                    font-size: 45px !important;
+                    .hero_left_span{
+                        margin-left:0;
+                        position: relative;
+                        color: transparent;
+                        -webkit-text-stroke: 0.1vw #383d52;
+                    }
+                    .hero_left_span::before{
+                        content: attr(data-text);
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 0;
+                        height: 100%;
+                        color: #01fe87;
+                        -webkit-text-stroke: 0vw #383d52;
+                        border-right: 2px solid #01fe87;
+                        white-space: wrap;
+                        overflow: hidden;
+                        animation: animate 6s linear infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .hero_inner{
+        .hero_left{
+            .hero_social{
+                left: 2%;
+                margin-top: -90px;
+                .bi::before{
+                    font-size: 30px;    
+                    color: #249C0A;
+                    cursor: pointer;
                 }
             }
         }

@@ -3,7 +3,8 @@ import './AboutContent.scss'
 import Me from '../../Assets/Images/About-me.png'
 import Skills from '../Skills/Skills'
 import { myProject } from './About'
-import Man from '../../Assets/Images/hero_me.png'
+import Man from '../../Assets/Images/hero_me.svg'
+
 function AboutContent() {
   // const magnetref = useRef()
   return (
