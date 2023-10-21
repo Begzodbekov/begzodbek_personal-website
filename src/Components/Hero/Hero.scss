@@ -546,7 +546,7 @@
                 flex-direction: row;
                 max-width: 800px;
                 left: 2%;
-                margin-top: 400px;
+                margin-top: 490px;
                 position: absolute;
                 .bi::before{
                     font-size: 30px;    
@@ -569,20 +569,20 @@
                     
                 }
                 .hero_left_definintion{
-                    font-size: 12px !important;
+                    font-size: 16px !important;
                     margin-top: 10px;
-                    letter-spacing: 1px;
-                    line-height: 18px;
+                    letter-spacing: 2px;
+                    line-height: 20px;
                 }
                 .hero_left_button{
-                    padding: 7px 40px 7px 21px ;
+                    padding: 13px 50px 13px 21px ;
                     margin-top: 20px;
-                    font-size: 14px;
+                    font-size: 17px;
                     .bi_right{
-                     padding: 7px 7px;
-                     font-size: 15px;
-                     margin-top: -7px;
-                     margin-left: 10px;
+                     padding: 11px 11px;
+                     font-size: 20px;
+                     margin-top: -12px;
+                     margin-left: 8px;
                     }
                 }
             }
