@@ -22,3 +22,13 @@ ul,ol{
 a{
   text-decoration: none;
 }
+
+@media screen and (max-width:605px) {
+  .App{
+    background: #2A3038;
+    height: 171vh;
+    background-image: url('./Assets/Images/Meliuk-liuk2.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
