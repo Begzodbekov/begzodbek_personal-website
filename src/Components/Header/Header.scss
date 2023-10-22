@@ -359,14 +359,20 @@
           }
       }
   }
+@media screen and (max-width: 340px) {
+    .nav_inner {
+        .nav_burger {
+            margin-left: 120px;
 
-  @media screen and (max-width: 336px) {
-      .nav_inner {
-          .nav_burger {
-              margin-left: 140px;
-          }
-      }
-  }
+            .bi {
+                font-size: 25px;
+            }
+        }
+        .responsive_list{
+            margin-left: -42px;
+        }
+    }
+}
 
   @media screen and (max-width: 316px) {
       .nav_inner {
@@ -379,6 +385,7 @@
           }
       }
   }
+
 
   @media screen and (max-width: 292px) {
       .nav_inner {
