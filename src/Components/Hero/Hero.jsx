@@ -19,6 +19,9 @@ function Hero() {
              <a href="">
               <i class="bi bi-instagram"></i>
              </a>
+             <a href="https://www.linkedin.com/in/begzodbek-xusanboyev-b70093293?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3B1UIXK3PeQ3CO6dR7gTzdQw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile">
+              <i class="bi bi-linkedin"></i>
+             </a>
              <a href="https://github.com/Begzodbekov">
               <i class="bi bi-github"></i>
              </a>
