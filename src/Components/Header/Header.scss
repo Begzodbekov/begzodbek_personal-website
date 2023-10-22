@@ -86,9 +86,6 @@
 
 @media screen and (max-width: 1140px) {
       .nav_inner {
-          .nav_inner_left {
-              margin-left: 20px;
-          }
 
           .nav_list {
               .nav_list_item {
@@ -119,11 +116,18 @@
           .nav_inner_left {
               flex-grow: 1;
           }
-
           .nav_burger {
               display: block;
               margin-left: 478px;
-
+              .burger_x{
+                display: none;
+              }
+              .change_burger{
+                display: block;
+              }
+              .change_burger1{
+                display: none;
+              }
               .bi {
                   font-size: 40px;
                   color: #fff;
@@ -181,8 +185,6 @@
           // position: absolute;
       }
   }
-
-
   @media screen and (max-width: 736px) {
       .nav_inner {
           .nav_burger {

@@ -6,10 +6,14 @@ import Title from '../../Assets/Images/Header_umar.png'
 function Header() {
   const location = useLocation().pathname
   const BurgerList = useRef()
+  const xref = useRef()
+  const burgert = useRef()
   const Nav2 = useRef()
   const Burger = ()=>{
     BurgerList.current.classList.toggle('responsive_list')
     Nav2.current.classList.toggle('nav_responsive')
+    xref.current.classList.toggle("change_burger")
+    burgert.current.classList.toggle("change_burger1")
   } 
   return (
     <div ref={Nav2} className='Header'>
@@ -41,8 +45,9 @@ function Header() {
                   <Link to="/contact" className={location== '/contact'?'nav_item_a5 active':"nav_item_a5"}>Contact</Link>
                 </li>
               </ul>
-              <div onClick={Burger} className='nav_burger'>
-                 <i class="bi bi-list"></i>
+              <div  className='nav_burger'>
+                 <i ref={burgert} onClick={Burger} class="bi bi-list"></i>
+                 <i ref={xref} onClick={Burger} class="bi bi-x burger_x"></i>
               </div>
             </div>
           </div>

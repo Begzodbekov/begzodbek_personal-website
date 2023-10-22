@@ -23,6 +23,11 @@ a{
   text-decoration: none;
 }
 
+@media screen and (max-width:695px){
+  .App{
+    height: 111vh;
+  }
+}
 @media screen and (max-width:605px) {
   .App{
     background: #2A3038;
