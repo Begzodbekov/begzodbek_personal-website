@@ -36,7 +36,7 @@ function Skills() {
             pagination={{
               clickable: true,
             }}
-            modules={[Grid,]}
+            modules={[Grid,Pagination]}
             className="mySwiper"
           >
           <div className="skills_items">

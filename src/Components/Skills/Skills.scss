@@ -28,15 +28,20 @@
   }
   .swiper {
     max-width: 1309px;
-    // height: 200px;
-      // margin-left: auto;
-      // margin-right: auto;
-
+    height: 488px;
+      .swiper-pagination{
+        margin-bottom: 10px;
+        .swiper-pagination-bullet{
+          background: #00FF0A !important;
+          padding: 6px;
+        }
+      }
     .swiper-wrapper{
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
+      height: 197px;
     }
   }
   
