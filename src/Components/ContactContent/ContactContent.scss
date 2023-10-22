@@ -1055,16 +1055,17 @@
                         font-size: 9px;
                     }
                     .contact_send {
-                        padding: 11px 69px 11px 30px;
-                        max-width: 206px;
+                        font-size: 15px;
+                        letter-spacing: 1px;
                         margin-top: 10px;
-                        font-size: 18px;
+                        max-width: 183px;
+                        padding: 11px 69px 11px 12px;
                         .bi {
                             padding: 10px 10px 10px 10px;
                             margin-top: -10px;
-                            margin-left: 30px;
+                            margin-left: 35px;
                             border-radius: 50%;
-                            font-size: 20px;
+                            font-size: 16px !important;
             
                         }
                     }
