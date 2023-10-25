@@ -53,15 +53,27 @@ a{
   text-decoration: none;
 }
 
+@media screen and (max-width:1550px){
+  .App{
+    height: 131vh;
+  }
+}
+
 @media screen and (max-width:695px){
   .App{
     height: 111vh;
   }
 }
+
+@media screen and (max-width:616px){
+  .App{
+    height: 155vh;
+  }
+}
 @media screen and (max-width:605px) {
   .App{
     background: #2A3038;
-    height: 171vh;
+    height: 211vh;
     background-image: url('./Assets/Images/Meliuk-liuk2.png');
     background-size: cover;
     background-position: center;

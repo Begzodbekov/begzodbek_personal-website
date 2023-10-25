@@ -17,7 +17,7 @@ function PortfolioContent() {
                 <img src={Project1} alt="" />
                 <div className='itema1'>
                   <div className='portfolio_view'>
-                    <a href='https://f3-badiat-proyekt.vercel.app/' className='portfolio_see'>See website</a>
+                    <a href='https://f3-badiat-proyekt.vercel.app/ ' target='_blank' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ function PortfolioContent() {
                 <img src={Project2} alt="" />
                 <div className='itema1'>
                   <div className='portfolio_view'>
-                    <a href='https://f3-team-project3.vercel.app/' className='portfolio_see'>See website</a>
+                    <a href='https://f3-team-project3.vercel.app/' target='_blank' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function PortfolioContent() {
                 <img src={Project3} alt="" />
                 <div className='itema1'>
                   <div className='portfolio_view'>
-                    <a href='https://moviebox-website.vercel.app/' className='portfolio_see'>See website</a>
+                    <a href='https://moviebox-website.vercel.app/' target='_blank' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function PortfolioContent() {
                 <img src={Project4} alt="" />
                 <div className='itema1'>
                   <div className='portfolio_view'>
-                    <a href='https://my-projects-mu-lac.vercel.app/' className='portfolio_see'>See website</a>
+                    <a href='https://my-projects-mu-lac.vercel.app/' target='_blank' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@ function PortfolioContent() {
                 <img src={Project5} alt="" />
                 <div className='itema1'>
                   <div className='portfolio_view'>
-                    <a href='https://portfolio-projects-cards.vercel.app/' className='portfolio_see'>See website</a>
+                    <a href='https://portfolio-projects-cards.vercel.app/' target='_blank' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ function PortfolioContent() {
                 <img src={Project6} alt="" />
                 <div className='itema1'>
                   <div className='portfolio_view'>
-                    <a href='https://portifolio-first-project.vercel.app/' className='portfolio_see'>See website</a>
+                    <a href='https://portifolio-first-project.vercel.app/' target='_blank' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
