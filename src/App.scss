@@ -9,6 +9,36 @@
   background-image: url('./Assets/Images/Meliuk-liuk2.png');
   background-size: cover;
   background-position: center;
+  position: relative;
+  .background_nimation{
+    margin-left: 490px;
+    margin-top: -900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: animates 15s linear infinite;
+    .animation_ball{
+      // position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: green;
+      display: block;
+      margin-left: 30px;
+    }
+    .ball2{
+        margin-left: 20px;
+    }
+  }
+}
+
+@keyframes animates {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(900px);
+  }
 }
 .container{
   max-width: 1840px;

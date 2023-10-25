@@ -17,6 +17,10 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/skills' element={<Skill/>}/>
       </Routes>
+      <div className='background_nimation'>
+        <span className='animation_ball ball1'></span>
+        <span className='animation_ball ball2'></span>
+      </div>
     </div>
   );
 }

@@ -4,6 +4,8 @@ import Project1 from '../../Assets/Images/project1.jpg'
 import Project2 from '../../Assets/Images/project2.jpg'
 import Project3 from '../../Assets/Images/project3.jpg'
 import Project4 from '../../Assets/Images/project4.jpg'
+import Project5 from '../../Assets/Images/project5.jpg'
+import Project6 from '../../Assets/Images/project6.jpg'
 function PortfolioContent() {
   return (
     <div className='PortfolioContent'>
@@ -40,6 +42,22 @@ function PortfolioContent() {
                 <div className='itema1'>
                   <div className='portfolio_view'>
                     <a href='https://my-projects-mu-lac.vercel.app/' className='portfolio_see'>See website</a>
+                  </div>
+                </div>
+            </div>
+            <div className='portfolio_items'>
+                <img src={Project5} alt="" />
+                <div className='itema1'>
+                  <div className='portfolio_view'>
+                    <a href='https://portfolio-projects-cards.vercel.app/' className='portfolio_see'>See website</a>
+                  </div>
+                </div>
+            </div>
+            <div className='portfolio_items'>
+                <img src={Project6} alt="" />
+                <div className='itema1'>
+                  <div className='portfolio_view'>
+                    <a href='https://portifolio-first-project.vercel.app/' className='portfolio_see'>See website</a>
                   </div>
                 </div>
             </div>
