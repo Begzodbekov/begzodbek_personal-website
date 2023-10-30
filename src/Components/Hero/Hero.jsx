@@ -30,7 +30,7 @@ function Hero() {
              </a>
            </div>
            <div className='hero_left_bottom'>
-              <h1 className='hero_left_name'>I‘m Umar <br />
+              <h1 className='hero_left_name'>I‘m Begzodbek <br />
                 <span className='hero_left_span' data-text="Frontend Developer">Frontend Developer</span>
               </h1>
               <p className='hero_left_definintion'>I’m  currently frontend developer in Uzbekistan. I am passionate about working with clients and creating wonderful website that
